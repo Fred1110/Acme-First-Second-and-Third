@@ -1,1 +1,42 @@
+body {
+  padding: 1rem;
+  font-family: Verdana;
+}
+h1 {
+  text-align: center;
+}
+div {
+  display: flex;
+}
+#first, #second, #third {
+  border: solid 1px red;
+  width: 30%;
+  padding: 1rem;
+  margin: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  flex-direction: column;
+}
+#name1, #name2, #name3, #name4{
+  border: solid 1px red;
+  height: 4rem;
+  justify-content: center;
+  list-style-type:none;
+  margin-bottom: 1px;
+}
+.selected{
+  background-color: tomato
+}
+
+#move-right, #move-left {
+  display: flex;
+  height: 4rem;
+  width: 100%;
+  background-color: tomato;
+  align-items: center;
+  justify-content: center;
+
+}
+
 
